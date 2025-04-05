@@ -1,9 +1,9 @@
 {
-  "name": "idurar-erp-crm",
+  "name": "thothify-erp-crm",
   "version": "4.1.0",
   "engines": {
-    "node": "20.9.0",
-    "npm": "10.2.4"
+    "node": "22.14.0",
+    "npm": "11.2.0"
   },
   "type": "module",
   "dependencies": {

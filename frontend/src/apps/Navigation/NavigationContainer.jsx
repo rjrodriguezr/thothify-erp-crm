@@ -6,7 +6,7 @@ import { useAppContext } from '@/context/appContext';
 
 import useLanguage from '@/locale/useLanguage';
 import logoIcon from '@/style/images/logo-icon.svg';
-import logoText from '@/style/images/logo-text.svg';
+import logoText from '@/style/images/logo-text.png';
 
 import useResponsive from '@/hooks/useResponsive';
 
@@ -90,11 +90,6 @@ function Sidebar({ collapsible, isMobile = false }) {
       key: 'generalSettings',
       label: <Link to={'/settings'}>{translate('settings')}</Link>,
       icon: <SettingOutlined />,
-    },
-    {
-      key: 'about',
-      label: <Link to={'/about'}>{translate('about')}</Link>,
-      icon: <ReconciliationOutlined />,
     },
   ];
 
